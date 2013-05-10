@@ -1,11 +1,17 @@
 # hip
 minimal http server
 
+preview, experimental, work in progress, etc, etc
+
 ## usage
 
-    var hip = require('hip')
+    var hip = require('./')
 
-## api
+    hip(function(h) {
+      return 'hello thar'
+    }).listen(1080)
+
+
 
 
 ## installation
